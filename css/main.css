@@ -1,0 +1,27 @@
+html {
+    font-size: 16;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16;
+    font-weight: 400;
+    color: #674636;
+}
+
+a {
+    color: #674636;
+}
+a:hover {
+    color: #aab396;
+}
+
+
+
+/*
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
