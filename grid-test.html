@@ -19,7 +19,7 @@
     <!-- MAIN CONTAINER -->
     <div class="container-flex">
         <!-- HEADER -->
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f7eed3;">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(242, 238, 215);">
             <div class="container-fluid">
                 <!-- LOGO + NAME -->
                 <img src="images/pirog.png" height="50">
@@ -51,23 +51,46 @@
 
                     <!-- RIGHT MENU -->
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle ms-auto" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle ms-auto" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <img src="images/person.svg">
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Registration</a></li>
-                                <li><a class="dropdown-item" href="#">Authorization</a></li>
+                                <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#modalcart" href="#">Registration</a>
+                                    
+                                </li>
+                                <li><a class="dropdown-item" href="index.html">Authorization</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
+                            <!-- MODAL REGISTRATION -->
+                            <div class="modal fade" id="modalcart" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Registration</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Registration Window
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- MODAL REGISTRATION -->
                         </li>
+
                         <li class="nav-item"></li>
                             <a class="nav-link" href="#"><img src="images/shopping_cart.svg"></a>
                         </li>
+                        
                         <li class="nav-item"></li>
                             <a class="nav-link" href="#"><img src="images/search.svg"></a>
                         </li>
@@ -133,20 +156,143 @@
         </div>
         <!-- CAROUSEL -->
         
+        <!-- CLIENT CARDS-->
         <section class="main-content">
             <div class="container">
                 <div class="row">
+
                     <div class="col-lg-4 col-sm-6 mb-3">
                         <div class="product-card">
                             <div class="product-thumb">
                                 <a href="#"><img src="images/pirog.png"></a>
                             </div>
+                            <div class="product-details">
+                                <h4><a href="#">iPhone</a></h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, repudiandae?</p>
+                                <div class="product-bottom-details d-flex justify-content-between">
+                                    <div class="product-price">
+                                        <small>$230.99</small> $99
+                                    </div>
+                                    <div class="product-links">
+                                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </div>
+                                </div>
+                            </div>                            
                         </div>
                     </div>
+
+                    <div class="col-lg-4 col-sm-6 mb-3">
+                        <div class="product-card">
+                            <div class="product-thumb">
+                                <a href="#"><img src="images/pirog.png"></a>
+                            </div>
+                            <div class="product-details">
+                                <h4><a href="#">iPhone</a></h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, repudiandae?</p>
+                                <div class="product-bottom-details d-flex justify-content-between">
+                                    <div class="product-price">
+                                        <small>$230.99</small> $99
+                                    </div>
+                                    <div class="product-links">
+                                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 mb-3">
+                        <div class="product-card">
+                            <div class="product-thumb">
+                                <a href="#"><img src="images/pirog.png"></a>
+                            </div>
+                            <div class="product-details">
+                                <h4><a href="#">iPhone</a></h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, repudiandae?</p>
+                                <div class="product-bottom-details d-flex justify-content-between">
+                                    <div class="product-price">
+                                        <small>$230.99</small> $99
+                                    </div>
+                                    <div class="product-links">
+                                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 mb-3">
+                        <div class="product-card">
+                            <div class="product-thumb">
+                                <a href="#"><img src="images/pirog.png"></a>
+                            </div>
+                            <div class="product-details">
+                                <h4><a href="#">iPhone</a></h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, repudiandae?</p>
+                                <div class="product-bottom-details d-flex justify-content-between">
+                                    <div class="product-price">
+                                        <small>$230.99</small> $99
+                                    </div>
+                                    <div class="product-links">
+                                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 mb-3">
+                        <div class="product-card">
+                            <div class="product-thumb">
+                                <a href="#"><img src="images/pirog.png"></a>
+                            </div>
+                            <div class="product-details">
+                                <h4><a href="#">iPhone</a></h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, repudiandae?</p>
+                                <div class="product-bottom-details d-flex justify-content-between">
+                                    <div class="product-price">
+                                        <small>$230.99</small> $99
+                                    </div>
+                                    <div class="product-links">
+                                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 mb-3">
+                        <div class="product-card">
+                            <div class="product-thumb">
+                                <a href="#"><img src="images/pirog.png"></a>
+                            </div>
+                            <div class="product-details">
+                                <h4><a href="#">iPhone</a></h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, repudiandae?</p>
+                                <div class="product-bottom-details d-flex justify-content-between">
+                                    <div class="product-price">
+                                        <small>$230.99</small> $99
+                                    </div>
+                                    <div class="product-links">
+                                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
-
+        <!-- CLIENT CARDS-->
+        
+        <!-- FOOTER -->
         <div class="row">
             <div class="col-xl-3 col-sm-6 p-4" style="background-color: #f7eed3;">
                 Contact: <br>
@@ -158,6 +304,7 @@
             <div class="col-xl-3 col-sm-6 p-0" style="background-color: #f7eed3; text-align: center;">3</div>
             <div class="col-xl-3 col-sm-6 p-0" style="background-color: #f0eed3; text-align: center;">4</div>
         </div>
+        <!-- FOOTER -->
 
         <div class="row justify-content-center align-items-center g-2">
             <div style="background-color: cadetblue; text-align: center;">Carousel</div>
@@ -165,14 +312,16 @@
 
         <div class="row">
           <div class="col-xl-3" style="background-color: azure; text-align: center;">
-            Первый из трех столбцов
-            <div class="row p-2" style="background-color: blueviolet;">
+            Первый из трех столбцов 
+            <div class="row p-2" style="background-color: rgb(218, 243, 189);">
                 Ещё строка
             </div>
           </div>
+
           <div class="col-xl-6" style="background-color: bisque; text-align: center;">
-            Второй из трех столбцов
+                Второй из трех столбцов
           </div>
+
           <div class="col-xl-3" style="background-color: azure; text-align: center;">
             Третий из трех столбцов
           </div>

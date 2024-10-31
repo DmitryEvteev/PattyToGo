@@ -1,0 +1,9 @@
+text color: rgb(98, 111, 71)
+text:hover color: rgb(98, 111, 71, .7)
+content bg color: rgb(254, 250, 224)
+header, footer bg color: rgb(242, 238, 215)
+
+text color: rgb(97, 65, 36, .7)
+text:hover color: rgb(97, 65, 36)
+content bg color: rgb(97, 65, 36, .1)
+header, footer bg color: rgb(97, 65, 36, .2)

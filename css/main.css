@@ -6,29 +6,29 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 16;
     font-weight: 400;
-    color: #674636;
+    color: rgba(97, 65, 36);
 }
 
 section {
-    background-color: #fff8e8;
+    background-color: rgba(242, 238, 215);
     padding: 50px, 0;
 }
 
 a {
-    color: #674636;
+    color: rgba(97, 65, 36, .7);
 }
 
 a:hover {
-    color: #aab396;
+    color: rgba(97, 65, 36);
 }
 
 /* HEADER */
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(103, 70, 54, .85);
+    color: rgba(97, 65, 36, .7);
 }
 
 .navbar-light .navbar-brand {
-    color: rgba(103, 70, 54, .85);
+    color: rgba(97, 65, 36, .7);
 }
 
 .navbar-nav .dropdown-menu {
@@ -37,14 +37,19 @@ a:hover {
 }
 
 .dropdown-item {
-    color: rgba(103, 70, 54, .85);
+    color: rgba(97, 65, 36, .7);
+}
+
+.dropdown-menu {
+	color: rgba(97, 65, 36);
+	font-size: .9rem;
 }
 
 .top-menu li a::after {
 	content: '';
 	display: block;
 	width: 100%;
-	background-color: rgba(103, 70, 54, .85);
+	background-color: rgba(97, 65, 36, .7);
 	height: 2px;
 	transition: all .3s;
 	transform: scale(0);
@@ -53,15 +58,23 @@ a:hover {
 .top-menu li a:hover::after {
 	transform: scale(1);
 }
+/* HEADER */
+
+/* CAROUSEL */
+
+.carousel-dark .carousel-caption {
+    color: rgba(97, 65, 36, .7);
+}
+/* CAROUSEL */
 
 /* Product card */
 .product-card {
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+	box-shadow: 0 2px 5px 0 rgba(97, 65, 36, .1);
 	transition: all .3s;
 }
 
 .product-card:hover {
-	box-shadow: 0 14px 30px -15px rgba(0, 0, 0, 0.75);
+	box-shadow: 0 14px 30px -15px rgba(97, 65, 36, .7);
 }
 
 .product-thumb a {
@@ -92,7 +105,7 @@ a:hover {
 .product-details p {
 	font-size: 15px;
 	margin-bottom: 20px;
-	color: #999;
+	color: rgba(97, 65, 36, .7);
 	height: 44px;
 	overflow: hidden;
 }
