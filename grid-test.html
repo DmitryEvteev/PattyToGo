@@ -12,7 +12,10 @@
     <!-- Bootstrap JS -->
     <script src="js/bootstrap.bundle.min.js"></script>
 
-    <title>Привет Bootstrap!</title>
+    <!--  Google Icons  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <title>Hello, Bootstrap!</title>
   </head>
 
   <body>
@@ -54,7 +57,7 @@
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle ms-auto" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="images/person.svg">
+                                <span class="material-symbols-outlined">person</span>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#modalcart" href="#">Registration</a>
@@ -75,7 +78,19 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            Registration Window
+
+                                            <!-- Registration Window -->
+                                            <form class="row g-3">
+                                                <div class="col-md-6">
+                                                    <label for="inputName" class="form-label">Your name</label>
+                                                    <input type="text" class="form-control" name="inputName" placeholder="Your name">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="inputPassword" class="form-label">Your password</label>
+                                                    <input type="password"  class="form-control" name="inputPassword" placeholder="Your password">
+                                                </div>
+                                            </form> 
+
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -88,12 +103,13 @@
                         </li>
 
                         <li class="nav-item"></li>
-                            <a class="nav-link" href="#"><img src="images/shopping_cart.svg"></a>
+                            <a class="nav-link" href="#"><span class="material-symbols-outlined">shopping_cart</span></a>
                         </li>
                         
                         <li class="nav-item"></li>
-                            <a class="nav-link" href="#"><img src="images/search.svg"></a>
+                            <a class="nav-link" href="#"><span class="material-symbols-outlined">search</span></a>
                         </li>
+
                     </ul>
                     <!-- RIGHT MENU --> 
 
